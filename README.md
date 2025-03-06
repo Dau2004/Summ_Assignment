@@ -1,54 +1,40 @@
-# Summative Assignment
+# Optimization Using Gradient Descent: Linear Regression
 
-## Project Overview
-This project is a summative assignment that focuses on exploring linear regression implementation using multiple approaches:
+## Overview
+This project explores linear regression implementation using multiple approaches:
+- Linear regression using NumPy's polyfit
+- Machine learning models from scikit-learn
+- Gradient descent implementation from scratch
 
-Linear regression using NumPy's polyfit
-Machine learning models from scikit-learn
-Gradient descent implementation from scratch. The notebook contains data analysis, modeling, and visualizations that address the given problem statement.
+## Key Components
 
-## Contents
-- **Data Preparation:** Steps involved in cleaning and preprocessing the dataset.
-- **Exploratory Data Analysis (EDA):** Visualizations and statistical summaries to understand data patterns.
-- **Model Development:** Implementation of machine learning models (if applicable).
-- **Results & Evaluation:** Performance metrics and analysis of the findings.
-- **Conclusion:** Summary of insights and potential improvements.
+### Data Analysis
+- Analysis of TV marketing expenses vs. sales data
+- Data preprocessing including normalization
+- Train-test splitting for model evaluation
+
+### Implementation Methods
+1. **NumPy Implementation**: Using `polyfit` to calculate the regression coefficients
+2. **Scikit-learn Implementation**: Using `LinearRegression` estimator
+3. **Gradient Descent Implementation**: Building linear regression from scratch
+4. **Advanced Models**: Comparison with Random Forest and Decision Tree regressors
+
+### Performance Evaluation
+- Calculation of Root Mean Squared Error (RMSE) for model comparison
+- Model ranking based on performance metrics
+- Prediction visualization
 
 ## Requirements
-To run this notebook successfully, ensure you have the following dependencies installed:
+- Python 3.x
+- NumPy
+- pandas
+- scikit-learn
+- Matplotlib (for visualizations)
 
-```bash
-pip install -r requirements.txt
-```
+## Key Learnings
+- Implementation of linear regression using different approaches
+- Understanding of gradient descent optimization
+- Model comparison techniques
+- Practical experience with normalization and denormalization
 
-Or manually install the key libraries:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-## How to Use
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd <project_directory>
-   ```
-3. Open Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-4. Run the `Summative Assignment.ipynb` notebook cell by cell.
-
-## Dataset
-[Data/tvmarketing.csv]
-
-## Results
-Summarize the key findings and model performance (if applicable).
-
-## Author
-**Chol Daniel Dau**
-
-
+This project demonstrates both theoretical understanding and practical implementation of linear regression, emphasizing the optimization process through gradient descent.
