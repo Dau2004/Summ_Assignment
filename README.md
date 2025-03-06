@@ -43,14 +43,12 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 4. Run the `Summative Assignment.ipynb` notebook cell by cell.
 
 ## Dataset
-[Provide details about the dataset used, including source and format.]
+[Data/tvmarketing.csv]
 
 ## Results
 Summarize the key findings and model performance (if applicable).
 
 ## Author
-**Chol Daniel Deng**
+**Chol Daniel Dau**
 
-## License
-This project is licensed under the [Specify License] License. See the LICENSE file for details.
 
